@@ -1,0 +1,18 @@
+.main_from {
+  padding: 5rem 5rem 10rem 5rem;
+
+  background-color: rgb(120, 170, 170);
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.sign_up_button {
+  background-color: rgb(119, 214, 119);
+  border: rgb(238, 0, 0);
+}

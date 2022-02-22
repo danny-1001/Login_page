@@ -1,3 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Raleway:ital,wght@1,500&display=swap");
+.main_from {
+  padding: 5rem 5rem 10rem 5rem;
+  background-color: #78aaaa;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.sign_up_button {
+  background-color: #77d677;
+  border: #ee0000;
+}
+
 * {
   margin: 0;
   padding: 0;
