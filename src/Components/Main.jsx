@@ -57,17 +57,17 @@ function Main() {
                   </a>
                 </div>
 
-                <div className="text-center text-lg-center mt-4 pt-2">
-                  <button type="button" className="btn login_button">
+                <div className="text-center text-lg-center mt-5 pt-2">
+                  <button type="button" className="login_button">
                     Login
                   </button>
                 </div>
 
                 <div className="divider d-flex align-items-center my-4">
-                  <p className="text-center fw-bold mx-3 mb-0">Or</p>
+                  <p className="text-center mx-3 mb-0">Or</p>
                 </div>
-                <div className="text-center text-lg-center mt-4 pt-2">
-                  <button type="button" className="btn sign_up_button">
+                <div className="text-center text-lg-center mt-5 pt-2">
+                  <button type="button" className=" sign_up_button">
                     Sign Up
                   </button>
                 </div>

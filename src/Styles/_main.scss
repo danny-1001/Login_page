@@ -1,10 +1,10 @@
 .main_from {
   padding: 5rem 5rem 10rem 5rem;
   .form_card {
-    background-color: #0074fd;
-    padding: 5rem;
+    background-color: #e7e7e7;
+    padding: 5rem 5rem 10rem 5rem;
     border-radius: 1.5rem;
-    box-shadow: 0rem 0.2rem 0.2rem 0.2rem rgba(12, 12, 12, 0.555);
+    box-shadow: 0rem 0.1rem 0.1rem 0.1rem rgba(116, 116, 116, 0.555);
   }
 }
 
@@ -15,8 +15,21 @@
   height: 1px;
   background: #eee;
 }
-
+.login_button {
+  background-color: blue;
+  border-radius: 0.4rem;
+  color: #eee;
+  width: 50%;
+  height: 2.5rem;
+  border: none;
+  box-shadow: 0rem 0.1rem 0.1rem 0.1rem rgba(138, 138, 138, 0.555);
+}
 .sign_up_button {
   background-color: rgb(119, 214, 119);
-  border: rgb(238, 0, 0);
+  color: #e7e7e7;
+  border: none;
+  width: 50%;
+  height: 2.5rem;
+  border-radius: 0.4rem;
+  box-shadow: 0rem 0.1rem 0.1rem 0.1rem rgba(138, 138, 138, 0.555);
 }
