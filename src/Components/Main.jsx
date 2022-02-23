@@ -2,13 +2,16 @@ import React from "react";
 
 function Main() {
   return (
-    <section className="login_form">
-      <div className="container-fluid h-custom">
+    <section className="cotainer login_form">
+      <div className=" h-custom">
         <div className="row d-flex justify-content-center align-items-center h-100">
           <div className="container col-md-6 form_text">
-            <h1 className="text-align-center align-items-center">Product</h1>
-            <p className="text-align-center align-items-center">
-              Use whenever you want, where ever you want, however you want.
+            <h1 className="container text-align-center align-items-center pt-5">
+              Product
+            </h1>
+            <p className="container text-align-center align-items-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              commodi exercitationem tempore doloribus a hic.{" "}
             </p>
           </div>
           <div className="col-md-6">
@@ -40,8 +43,8 @@ function Main() {
                   </label>
                 </div>
 
-                <div className="d-flex justify-content-between align-items-center">
-                  <div className="form-check mt-3">
+                <div className="d-flex justify-content-between align-items-center secondary_btns">
+                  <div className="form-check mt-3 checkbox">
                     <input
                       className="form-check-input "
                       type="checkbox"
@@ -52,7 +55,7 @@ function Main() {
                       Remember me
                     </label>
                   </div>
-                  <a href="#!" className="forgot_password">
+                  <a href="#!" className="forgot_password ">
                     Forgot password?
                   </a>
                 </div>

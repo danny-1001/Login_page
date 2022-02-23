@@ -5,9 +5,16 @@
   height: 100%;
 }
 
+@media (max-width: 767px) {
+  .form_text {
+    text-align: center;
+  }
+}
+
 .form_text h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-family: "Raleway", sans-serif;
+  font-weight: bold;
   color: #0074fd;
 }
 
@@ -35,8 +42,19 @@
   font-family: "Fira Sans", sans-serif;
 }
 
-.main_from .forgot_password {
+.main_from .secondary_btns {
+  font-size: 1rem;
+}
+
+@media (max-width: 374px) {
+  .main_from .secondary_btns .checkbox {
+    display: none;
+  }
+}
+
+.main_from .secondary_btns .forgot_password {
   color: #0074fd;
+  padding: 0.85rem 0 0 0;
 }
 
 .main_from .divider:after,
@@ -68,6 +86,11 @@
 
 .main_from .sign_up_button {
   background-color: #0bad0b;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: "Fira Sans", sans-serif;
 }
 
 * {
