@@ -5,9 +5,9 @@ function Main() {
     <section className="login_form">
       <div className="container-fluid h-custom">
         <div className="row d-flex justify-content-center align-items-center h-100">
-          <div className="col-md-6 form_text">
+          <div className="container col-md-6 form_text">
             <h1 className="text-align-center align-items-center">Product</h1>
-            <p className="text-align-center align-items-center d-md-none">
+            <p className="text-align-center align-items-center">
               Use whenever you want, where ever you want, however you want.
             </p>
           </div>
@@ -18,11 +18,11 @@ function Main() {
                   <input
                     type="email"
                     id="email"
-                    className="form-control form-control-lg text-align-center align-items-center"
+                    className="form-control  text-align-center align-items-center"
                     placeholder="Enter a valid email address"
                     required
                   />
-                  <label className="form-label" for="email">
+                  <label className="form-label pt-3" for="email">
                     Email address
                   </label>
                 </div>
@@ -31,17 +31,17 @@ function Main() {
                   <input
                     type="password"
                     id="password"
-                    className="form-control form-control-lg"
+                    className="form-control"
                     placeholder="Enter password"
                     required
                   />
-                  <label className="form-label" for="password">
+                  <label className="form-label pt-3" for="password">
                     Password
                   </label>
                 </div>
 
                 <div className="d-flex justify-content-between align-items-center">
-                  <div className="form-check mb-0">
+                  <div className="form-check mt-3">
                     <input
                       className="form-check-input "
                       type="checkbox"
@@ -52,13 +52,13 @@ function Main() {
                       Remember me
                     </label>
                   </div>
-                  <a href="#!" className="text-body">
+                  <a href="#!" className="forgot_password">
                     Forgot password?
                   </a>
                 </div>
 
                 <div className="text-center text-lg-center mt-5 pt-2">
-                  <button type="button" className="login_button">
+                  <button type="button" className="buttons login_button">
                     Login
                   </button>
                 </div>
@@ -67,7 +67,7 @@ function Main() {
                   <p className="text-center mx-3 mb-0">Or</p>
                 </div>
                 <div className="text-center text-lg-center mt-5 pt-2">
-                  <button type="button" className=" sign_up_button">
+                  <button type="button" className="buttons sign_up_button">
                     Sign Up
                   </button>
                 </div>

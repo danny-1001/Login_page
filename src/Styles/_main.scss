@@ -1,3 +1,17 @@
+.form_text {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+  h1 {
+    font-size: 4rem;
+    font-family: $header;
+    color: $primary;
+  }
+  p {
+    font-size: 2rem;
+    font-family: $p;
+  }
+}
 .main_from {
   padding: 5rem 5rem 10rem 5rem;
   .form_card {
@@ -6,30 +20,38 @@
     border-radius: 1.5rem;
     box-shadow: 0rem 0.1rem 0.1rem 0.1rem rgba(116, 116, 116, 0.555);
   }
-}
+  #password,
+  #email {
+    height: 4rem;
+    font-size: 1.5rem;
+    font-family: $p;
+  }
+  .forgot_password {
+    color: $primary;
+  }
+  .divider:after,
+  .divider:before {
+    content: "";
+    flex: 1;
+    height: 0.1rem;
+    background: rgba(139, 139, 139, 0.527);
+  }
 
-.divider:after,
-.divider:before {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: #eee;
-}
-.login_button {
-  background-color: blue;
-  border-radius: 0.4rem;
-  color: #eee;
-  width: 50%;
-  height: 2.5rem;
-  border: none;
-  box-shadow: 0rem 0.1rem 0.1rem 0.1rem rgba(138, 138, 138, 0.555);
-}
-.sign_up_button {
-  background-color: rgb(119, 214, 119);
-  color: #e7e7e7;
-  border: none;
-  width: 50%;
-  height: 2.5rem;
-  border-radius: 0.4rem;
-  box-shadow: 0rem 0.1rem 0.1rem 0.1rem rgba(138, 138, 138, 0.555);
+  .buttons {
+    border-radius: 0.4rem;
+    color: #eee;
+    width: 50%;
+    height: 2.5rem;
+    border: none;
+    box-shadow: 0rem 0.1rem 0.1rem 0.1rem rgba(138, 138, 138, 0.555);
+    font-size: 1.3rem;
+    font-family: $p;
+    font-weight: bold;
+  }
+  .login_button {
+    background-color: $primary;
+  }
+  .sign_up_button {
+    background-color: rgb(11, 173, 11);
+  }
 }
