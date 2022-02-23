@@ -1,7 +1,11 @@
 .main_from {
   padding: 5rem 5rem 10rem 5rem;
-
-  background-color: rgb(120, 170, 170);
+  .form_card {
+    background-color: #0074fd;
+    padding: 5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0rem 0.2rem 0.2rem 0.2rem rgba(12, 12, 12, 0.555);
+  }
 }
 
 .divider:after,

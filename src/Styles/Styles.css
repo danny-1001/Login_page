@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Raleway:ital,wght@1,500&display=swap");
 .main_from {
   padding: 5rem 5rem 10rem 5rem;
-  background-color: #78aaaa;
+}
+
+.main_from .form_card {
+  background-color: #0074fd;
+  padding: 5rem;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0rem 0.2rem 0.2rem 0.2rem rgba(12, 12, 12, 0.555);
+          box-shadow: 0rem 0.2rem 0.2rem 0.2rem rgba(12, 12, 12, 0.555);
 }
 
 .divider:after,
