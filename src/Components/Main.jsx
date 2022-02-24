@@ -22,7 +22,7 @@ function Main() {
                     type="email"
                     id="email"
                     className="form-control  text-align-center align-items-center"
-                    placeholder="Enter a valid email address"
+                    placeholder="Enter email address"
                     required
                   />
                   <label className="form-label pt-3" for="email">
@@ -60,7 +60,7 @@ function Main() {
                   </a>
                 </div>
 
-                <div className="text-center text-lg-center mt-5 pt-2">
+                <div className="text-center text-lg-center m-5 p-2">
                   <button type="button" className="buttons login_button">
                     Login
                   </button>
@@ -69,7 +69,7 @@ function Main() {
                 <div className="divider d-flex align-items-center my-4">
                   <p className="text-center mx-3 mb-0">Or</p>
                 </div>
-                <div className="text-center text-lg-center mt-5 pt-2">
+                <div className="text-center text-lg-center m-5 p-2">
                   <button type="button" className="buttons sign_up_button">
                     Sign Up
                   </button>

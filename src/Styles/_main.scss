@@ -32,7 +32,11 @@
     font-family: $p;
   }
   .secondary_btns {
-    font-size: 1rem;
+    font-size: 1.45rem;
+    #checkbox {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
     .checkbox {
       @media (max-width: 374px) {
         display: none;
@@ -56,7 +60,7 @@
   .buttons {
     border-radius: 0.4rem;
     color: #eee;
-    width: 50%;
+    width: 75%;
     height: 2.5rem;
     border: none;
     box-shadow: 0rem 0.1rem 0.1rem 0.1rem rgba(138, 138, 138, 0.555);
