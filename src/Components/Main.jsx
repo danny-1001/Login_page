@@ -2,7 +2,7 @@ import React from "react";
 
 function Main() {
   return (
-    <section className="cotainer login_form">
+    <section className="cotainer main ">
       <div className=" h-custom">
         <div className="row d-flex justify-content-center align-items-center h-100">
           <div className="container col-md-6 form_text">
