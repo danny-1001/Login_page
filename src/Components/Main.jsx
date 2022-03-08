@@ -1,6 +1,23 @@
 import React from "react";
 
 function Main() {
+  const password = document.getElementById("password");
+  const form = document.getElementById("form");
+  const errorElement = document.getElementById("error");
+
+  form.addEventListener("submit", (e) => {
+    let alert = [];
+    if (password.value.length <= 8) {
+      alert.push("Password must be at least 8 characters");
+    }
+    if (password.value === "password") {
+      alert.push("Password cannot be password");
+    }
+    if (alert.length > 0) {
+      e.preventDefault();
+      errorElement.innerText = alert.join(", ");
+    }
+  });
   return (
     <section className="cotainer main ">
       <div className=" h-custom">
@@ -15,7 +32,8 @@ function Main() {
             </p>
           </div>
           <div className="col-md-6">
-            <form className="main_from">
+            <div id="error"></div>
+            <form id="form" className="main_from">
               <div className="container form_card">
                 <div className="form-outline mb-4">
                   <input
@@ -61,7 +79,7 @@ function Main() {
                 </div>
 
                 <div className="text-center text-lg-center m-5 p-2">
-                  <button type="button" className="buttons login_button">
+                  <button type="submit" className="buttons login_button">
                     Login
                   </button>
                 </div>
